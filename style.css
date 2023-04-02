@@ -900,6 +900,27 @@ a {
 
 /* END MODAL */
 
+@media screen and (min-width: 1660px) {
+    .top {
+        width: 100%;
+        min-height: 830px;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+    .top {
+    width: 100%;
+    min-height: 715px;
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    .top {
+    width: 100%;
+    min-height: 665px;
+    }
+}
+
 @media screen and (max-width: 1660px) {
     .top p {
         font-size: 16px;
@@ -1082,10 +1103,20 @@ a {
     .header {
         min-height: 70px;
         height: auto;
+        width: auto;
     }
 }
 
 @media screen and (max-width: 737px) {
+    .main-nav {
+        display: none;
+    }
+    .header-active {
+        display: none;
+    }
+    .header:hover {
+        display: none;
+    }
     .carousel-btn {
         display: none;
     }
