@@ -202,7 +202,7 @@ a {
     min-height: 750px;
     display: flex;
     align-items: center;
-    background-image: url("https://i.imgur.com/8vwf0X1.jpg");
+    background-image: url("https://i.imgur.com/B5PAGOb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -350,7 +350,7 @@ a {
     color: white;
     font-size: 35px;
     letter-spacing: 5px;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
 .card-carousel {
